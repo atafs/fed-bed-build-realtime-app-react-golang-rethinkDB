@@ -7,10 +7,18 @@ Chat web app that uses WebSockets
 > export GOPATH=$HOME/Repository/go
 
 ## Test the WebSocket
-- connect and send to test the handshake of the sockets:
+#### connect and send to test the handshake of the sockets:
+- commit => Section5: 27
+
+> go run main.go
+
 http://websocket.org/echo.html
 
-- send a json data to a web socket:
+#### send a json data to a web socket:
+- commit => Section5: 28 
+
+> go run main.go
+
 https://jsbin.com/?js,console
 ```javascript
 let msg = {
@@ -34,6 +42,14 @@ ws.onmessage = (e) => {
   console.log(e.data);
 }
 ```
+
+#### test the client for the websocket
+- commit => Section5: 30
+
+> go run client.go
+
+
+
 
 
 
