@@ -7,9 +7,33 @@ Chat web app that uses WebSockets
 > export GOPATH=$HOME/Repository/go
 
 ## Test the WebSocket
-- click in connect button
-- click send button
+- connect and send to test the handshake of the sockets:
 http://websocket.org/echo.html
+
+- send a json data to a web socket:
+https://jsbin.com/?js,console
+```javascript
+let msg = {
+  name: 'channel add',
+  data: {
+    name: 'Hardware Support'
+  }
+}
+
+let subMsg = {
+  name: 'channel subscribe'
+}
+
+let ws = new WebSocket('ws://localhost:4000');
+ws.onopen = () => {
+  ws.send(JSON.stringify(subMsg))
+  ws.send(JSON.stringify(msg));
+}
+
+ws.onmessage = (e) => {
+  console.log(e.data);
+}
+```
 
 
 
