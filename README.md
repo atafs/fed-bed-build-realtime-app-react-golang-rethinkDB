@@ -6,6 +6,10 @@ Chat web app that uses WebSockets
 
 > export GOPATH=$HOME/Repository/go
 
+## Test the WebSocket
+- click in connect button
+- click send button
+http://websocket.org/echo.html
 
 
 
