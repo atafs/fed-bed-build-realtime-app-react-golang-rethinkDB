@@ -1,14 +1,8 @@
 package main
 
 import (
-	"fmt"
-	"github.com/mitchellh/mapstructure"	
+	"net/http"
 )
-
-type Message struct {
-	Name string `json:name`
-	Data interface{} `json:data`
-}
 
 type Channel struct {
 	Id string `json:id`
@@ -16,7 +10,7 @@ type Channel struct {
 }
 
 func main() {
-	router := &Router{}
+	router := NewRouter()
 
 	router.Handle("channel add", addChannel)
 

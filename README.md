@@ -48,7 +48,32 @@ ws.onmessage = (e) => {
 
 > go run client.go
 
+#### run the app after building backend go server
+-  commit => Section 37
 
+> go build *.go
+
+> go run *.go
+
+https://jsbin.com/?js,console
+```javascript
+let ws = new WebSocket('ws://localhost:4000');
+
+let message = {
+  name: 'channel add',
+  data: {
+    name: 'Hardware Support'
+  }
+};
+
+ws.onopen = () => {
+  ws.send(JSON.stringify(message));
+}
+
+ws.onmessage = (e) => {
+  console.log(JSON.parse(e.data));
+}
+```
 
 
 
