@@ -1,0 +1,162 @@
+2017-10-27T15:20:43.099666000 0.156693s notice: Recursively removing directory /Users/atomas/Repository/go/src/atafs/fed-bed-build-realtime-app-react-golang-rethinkDB/rethinkdb_data/tmp
+2017-10-27T15:20:43.103221000 0.160256s notice: Initializing directory /Users/atomas/Repository/go/src/atafs/fed-bed-build-realtime-app-react-golang-rethinkDB/rethinkdb_data
+2017-10-27T15:20:43.103583000 0.160610s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/atomas/Repository/go/src/atafs/fed-bed-build-realtime-app-react-golang-rethinkDB/rethinkdb_data' did not already exist or is empty.)
+2017-10-27T15:20:43.103720000 0.160746s notice: Running rethinkdb 2.3.6 (CLANG 9.0.0 (clang-900.0.37))...
+2017-10-27T15:20:43.111557000 0.168584s notice: Running on Darwin 17.2.0 x86_64
+2017-10-27T15:20:43.111610000 0.168635s notice: Loading data from directory /Users/atomas/Repository/go/src/atafs/fed-bed-build-realtime-app-react-golang-rethinkDB/rethinkdb_data
+2017-10-27T15:20:43.173387000 0.230413s info: Automatically using cache size of 402 MB
+2017-10-27T15:20:43.174195000 0.231220s notice: Listening for intracluster connections on port 29015
+2017-10-27T15:20:43.175970000 0.232996s notice: Listening for client driver connections on port 28015
+2017-10-27T15:20:43.176138000 0.233163s notice: Listening for administrative HTTP connections on port 8080
+2017-10-27T15:20:43.176150000 0.233175s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-10-27T15:20:43.176157000 0.233182s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-10-27T15:20:43.176159000 0.233185s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-10-27T15:20:43.176164000 0.233190s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-10-27T15:20:43.176170000 0.233195s notice: Server ready, "mimac011_leadmarket_local_w9p" 84d9eb36-4b85-4d31-917e-e618781d32ad
+2017-10-27T15:28:25.167860000 462.224886s info: Table 1b7aec59-b590-483d-b515-7c7b1f1bd37c: Starting a new Raft election for term 1.
+2017-10-27T15:28:25.168232000 462.225258s info: Table 1b7aec59-b590-483d-b515-7c7b1f1bd37c: Added replica on this server.
+2017-10-27T15:28:25.178608000 462.235634s info: Table 1b7aec59-b590-483d-b515-7c7b1f1bd37c: This server is Raft leader for term 1. Latest log index is 0.
+2017-10-27T15:28:28.950432000 466.007458s info: Table f3533927-f828-4e56-86c2-3ce39a2ad014: Starting a new Raft election for term 1.
+2017-10-27T15:28:28.950623000 466.007649s info: Table f3533927-f828-4e56-86c2-3ce39a2ad014: Added replica on this server.
+2017-10-27T15:28:28.957597000 466.014623s info: Table f3533927-f828-4e56-86c2-3ce39a2ad014: This server is Raft leader for term 1. Latest log index is 0.
+2017-10-27T15:28:33.284630000 470.341656s info: Table dc684c43-028e-4257-96b3-cf7d99a7834b: Starting a new Raft election for term 1.
+2017-10-27T15:28:33.284982000 470.342008s info: Table dc684c43-028e-4257-96b3-cf7d99a7834b: Added replica on this server.
+2017-10-27T15:28:33.294812000 470.351838s info: Table dc684c43-028e-4257-96b3-cf7d99a7834b: This server is Raft leader for term 1. Latest log index is 0.
+2017-10-27T15:33:51.337896000 788.394921s info: Table 1b7aec59-b590-483d-b515-7c7b1f1bd37c: Configuration is changing.
+2017-10-27T15:42:51.465900000 1328.522926s info: Table dc684c43-028e-4257-96b3-cf7d99a7834b: Configuration is changing.
+2017-10-27T15:43:07.081602000 1344.138628s info: Table dc684c43-028e-4257-96b3-cf7d99a7834b: Configuration is changing.
+2017-10-27T15:46:07.484816000 1524.541842s info: Table 1b7aec59-b590-483d-b515-7c7b1f1bd37c: Configuration is changing.
+2017-10-27T15:46:21.969836000 1539.026862s info: Table dc684c43-028e-4257-96b3-cf7d99a7834b: Configuration is changing.
+2017-10-27T16:20:38.230847000 3595.287873s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-27T16:21:30.911284000 3615.586855s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-27T16:21:55.656643000 3640.332213s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-27T18:21:58.173796000 3663.865241s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-27T18:22:20.938802000 3686.630246s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-27T18:22:45.093476000 3710.784920s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-27T18:23:08.084962000 3733.776406s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-27T19:20:57.776345000 3755.960721s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-27T19:21:18.594494000 3776.778870s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-27T23:01:55.400384000 3808.388474s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-27T23:02:16.962915000 3829.951000s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-28T01:02:31.895007000 3856.601037s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-28T03:02:44.994467000 3883.922316s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-28T04:21:40.063354000 3911.769367s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-28T11:33:27.999181000 3948.544954s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-28T11:33:49.035187000 3969.580958s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-28T11:34:10.034258000 3990.580030s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-28T11:34:31.758593000 4012.304364s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-28T11:34:53.122557000 4033.668328s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-28T11:35:13.271251000 4053.817022s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-28T11:35:42.902396000 4083.448167s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-28T11:36:10.363281000 4110.909056s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-28T11:36:31.806264000 4132.352035s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-28T11:36:52.033833000 4152.579605s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-28T14:37:03.187406000 4178.052177s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-28T16:37:18.395915000 4216.214891s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-28T18:37:30.881513000 4239.165382s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-28T20:37:43.836974000 4262.271262s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-28T22:37:56.640384000 4284.758214s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-28T23:38:02.074166000 4307.706256s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T10:49:28.249781000 4336.787710s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T10:49:54.352250000 4357.579747s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T10:50:15.358420000 4378.585917s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T10:50:36.353106000 4399.580602s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T10:50:56.419833000 4419.647330s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T10:51:17.352283000 4440.579780s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T10:51:38.592925000 4461.820422s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T10:51:59.354476000 4482.581973s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T10:52:23.235010000 4506.462507s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T10:52:43.353333000 4526.580830s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T10:53:04.354593000 4547.582090s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T10:53:24.836297000 4568.063795s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T10:53:45.355099000 4588.582596s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T10:54:07.011387000 4610.238884s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T10:54:30.805911000 4634.033409s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T10:54:51.353425000 4654.580922s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T10:55:13.838209000 4677.065707s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T10:55:34.352247000 4697.579744s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T10:55:55.847943000 4719.074812s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T10:56:16.353071000 4739.579296s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T10:56:45.615646000 4768.840955s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T10:57:06.354836000 4789.579495s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T10:57:27.371544000 4810.595545s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T10:57:48.359077000 4831.582422s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T10:58:09.356688000 4852.579377s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T10:58:30.360022000 4873.582054s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T10:58:50.809236000 4894.030628s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T10:59:11.363658000 4914.584408s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T10:59:32.359359000 4935.579453s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T10:59:53.360933000 4956.580369s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T11:00:17.329445000 4980.548132s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T11:00:37.363970000 5000.582030s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T11:00:58.364134000 5021.581538s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T11:01:19.364392000 5042.581139s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T11:01:43.322879000 5066.538876s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T11:02:03.365466000 5086.580836s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T11:02:24.367874000 5107.582587s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T11:02:45.366199000 5128.580256s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T11:03:08.370471000 5151.583808s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T11:03:30.805317000 5174.017952s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T11:03:50.853915000 5194.065923s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T11:04:19.373745000 5222.584862s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T11:04:40.373351000 5243.583810s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T11:05:04.669327000 5267.879026s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T11:05:32.791504000 5296.000324s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T11:05:53.371110000 5316.579286s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T11:06:14.383335000 5337.590853s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T11:06:42.605117000 5365.811754s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T11:07:04.534284000 5387.740235s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T11:07:32.815719000 5416.020785s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T11:07:55.807556000 5439.011902s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T11:08:18.664869000 5461.868501s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T11:08:45.714027000 5488.916813s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T11:09:14.318765000 5517.520656s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T11:09:37.153484000 5540.354661s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T11:10:01.809233000 5565.009639s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T11:10:28.164660000 5591.364243s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T11:10:52.442067000 5615.640889s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T13:11:11.807442000 5638.213255s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T16:11:21.133990000 5682.846048s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T18:11:33.739005000 5706.935705s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T20:11:46.556294000 5729.831620s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T22:11:58.554912000 5751.402907s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-29T23:12:03.836260000 5774.660713s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-30T08:33:31.045218000 5803.978112s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-30T08:33:53.963797000 5824.579364s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-30T08:34:15.777663000 5846.392575s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-30T08:34:38.450642000 5869.064874s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-30T08:34:59.630112000 5890.243709s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-30T08:35:20.798674000 5911.411636s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-30T08:35:43.868405000 5934.480676s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-30T08:36:05.125708000 5955.737341s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-30T08:36:28.865140000 5979.476061s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-30T08:36:51.903803000 6002.514032s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-30T08:37:11.972501000 6022.582128s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-30T08:37:32.970417000 6043.579415s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-30T08:37:54.254182000 6064.862542s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-30T08:38:19.804670000 6090.412262s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-30T08:38:44.738195000 6115.345040s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-30T08:39:09.178298000 6139.784409s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-30T08:39:34.822625000 6165.427967s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-30T08:39:58.202600000 6188.807241s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-30T08:40:23.406621000 6214.010506s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-30T08:40:48.408540000 6239.011675s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-30T08:41:08.977391000 6259.579911s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-30T08:41:31.457699000 6282.059542s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-30T08:41:53.724581000 6304.325756s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-30T08:42:18.944807000 6329.545225s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-30T08:42:44.492828000 6355.092481s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-30T08:43:05.393675000 6375.992701s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-30T08:43:31.738074000 6402.336309s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-30T08:43:51.984144000 6422.581771s notice: Someone asked for the nonwhitelisted file "/__webpack_hmr".  If this should be accessible, add it to the static web assets.
+2017-10-30T08:44:05.551035000 6436.148256s notice: Someone asked for the nonwhitelisted file "/loans/all-loans/".  If this should be accessible, add it to the static web assets.
+2017-10-30T08:44:22.092338000 6452.689062s notice: Someone asked for the nonwhitelisted file "/loans/eligibility/".  If this should be accessible, add it to the static web assets.
+2017-10-30T08:44:35.257282000 6465.853612s notice: Someone asked for the nonwhitelisted file "/loans/eligibility/".  If this should be accessible, add it to the static web assets.
+2017-10-30T08:44:40.163425000 6470.759608s notice: Someone asked for the nonwhitelisted file "/loans/eligibility/".  If this should be accessible, add it to the static web assets.
+2017-10-30T08:44:46.729285000 6477.325270s notice: Someone asked for the nonwhitelisted file "/loans/eligibility/".  If this should be accessible, add it to the static web assets.
+2017-10-30T08:44:52.643126000 6483.238934s notice: Someone asked for the nonwhitelisted file "/loans/".  If this should be accessible, add it to the static web assets.
+2017-10-30T08:45:12.774892000 6503.370096s notice: Server got SIGINT from pid 455, uid 502; shutting down...
+2017-10-30T08:45:12.775112000 6503.370316s notice: Shutting down client connections...
+2017-10-30T08:45:12.777105000 6503.372309s notice: All client connections closed.
+2017-10-30T08:45:12.777126000 6503.372330s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-10-30T08:45:12.801910000 6503.397113s notice: Storage engine shut down.

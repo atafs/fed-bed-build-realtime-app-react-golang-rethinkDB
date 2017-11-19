@@ -75,6 +75,39 @@ ws.onmessage = (e) => {
 }
 ```
 
+#### database rethinkDB web admin
+http://localhost:8080/#dataexplorer
+
+REQL (Rethink Query Language):
+```
+r.dbList()
+r.dbCreate('rtsupport')
+r.db('rtsupport').tableCreate('channel')
+r.db('rtsupport').tableList()
+r.db('rtsupport').table('channel').insert({ name: 'Hardware Support' })
+r.db('rtsupport').table('channel').indexCreate('name')
+r.db('rtsupport').table('user').get('3aed4c07-6248-4d2e-bec9-079f045b8bb0')
+r.db('rtsupport').table('user').get('3aed4c07-6248-4d2e-bec9-079f045b8bb0').update({ name: 'James Moore'})
+
+r.db('rtsupport').table('message').insert({
+  author: 'Americo Tomas',
+  createAt: r.now(),
+  channelId: '452e5e81-232b-4c17-85fe-7de014a4cb6a'
+})
+
+r.db('rtsupport').table('message').indexCreate('createAt')
+r.db('rtsupport').table('message').get('14db8630-e351-47cf-a2ea-3551026197f3').delete()
+
+//change feed
+//one tab at the web browser
+r.db('rtsupport').table('channel').changes({ includeInitial: true }) 
+//another tab
+r.db('rtsupport').table('channel').insert({ name: 'Software Support' })
+
+
+```
+
+
 
 
 

@@ -11,6 +11,7 @@ type User struct {
 }
 
 func main() {
+	/* CREATE CONNECTION */
 	session, err := r.Connect(r.ConnectOpts {
 		Address: "localhost:28015",
 		Database: "rtsupport",
